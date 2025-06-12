@@ -1,0 +1,31 @@
+{
+    "configs": [
+        {
+            "table_A": "W-玩家条件表",
+            "table_B": "R-任务表",
+            "A_sheet": "玩法开启 10000-20000",
+            "B_sheet": "主线任务",
+            "A_col": "完成主线任务ID",
+            "B_col": "序列号",
+            "A_index": "条件ID"
+        },
+        {
+            "table_A": "J-疆域表",
+            "table_B": "J-疆域表",
+            "A_sheet": "地图",
+            "B_sheet": "城池",
+            "A_col": "对应点的表id",
+            "B_col": "城池id",
+            "A_index": "位置id"
+        },       
+        {
+            "table_A": "J-疆域表",
+            "table_B": "J-疆域表",
+            "A_sheet": "城池",
+            "B_sheet": "地图",
+            "A_col": "城池id",
+            "B_col": "对应点的表id",
+            "A_index": "城池id"
+        }
+    ]
+}
