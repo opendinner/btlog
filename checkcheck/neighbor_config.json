@@ -1,19 +1,20 @@
 {
-    "configs": [
+    "config1": 
         {
-        "path": "E:\\project\\public\\number\\trunk\\G-攻城.xlsx",
+        "path": "G-攻城",
         "sheet": "星球配置",
         "type":"星球",
         "colA": "星球id",
         "colB": "相邻星球"
         },
+    "config2":
         {
-        "path": "E:\\project\\public\\number\\trunk\\J-疆域表.xlsx",
+        "path": "J-疆域表",
         "sheet": "地图",
         "type":"城池",
         "colA": "位置id",
         "colB": "可前往位置列表"
         }
-    ]
+    
     
 }

@@ -15,7 +15,7 @@ def web_open(df,html_path):
     webbrowser.open(html_path)
 
 def check_neighbor_city_config(neighbor_config):
-    city_config = pd.read_excel(neighbor_config['path'],sheet_name=neighbor_config["sheet"])
+    city_config = pd.read_excel(f'E:\\project\\public\\number\\trunk\\{neighbor_config['path']}.xlsx',sheet_name=neighbor_config["sheet"])
 
     neighbor_tuple_list = city_config[[neighbor_config['colA'], neighbor_config['colB']]][3:].apply(lambda row: (str(row[neighbor_config["colA"]]), row[neighbor_config["colB"]].split(',')), axis=1).to_list()
     neighbor_dict = {i[0]: i[1] for i in neighbor_tuple_list}
@@ -28,9 +28,10 @@ def check_neighbor_city_config(neighbor_config):
 
 if __name__ == "__main__":
     with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
-        neighbor_config = json.load(f)['configs']
+        neighbor_config = json.load(f)
+
     for config in neighbor_config:
-        check_neighbor_city_config(config)
+        check_neighbor_city_config(neighbor_config[config])
         print("\n")
 
     print("检查完成，结果已输出。")
