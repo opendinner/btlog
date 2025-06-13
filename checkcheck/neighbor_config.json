@@ -1,0 +1,19 @@
+{
+    "configs": [
+        {
+        "path": "E:\\project\\public\\number\\trunk\\G-攻城.xlsx",
+        "sheet": "星球配置",
+        "type":"星球",
+        "colA": "星球id",
+        "colB": "相邻星球"
+        },
+        {
+        "path": "E:\\project\\public\\number\\trunk\\J-疆域表.xlsx",
+        "sheet": "地图",
+        "type":"城池",
+        "colA": "位置id",
+        "colB": "可前往位置列表"
+        }
+    ]
+    
+}

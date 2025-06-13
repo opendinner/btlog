@@ -1,6 +1,11 @@
 import pandas as pd
 import json
+import os
 
+# 获取当前脚本所在目录
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 构建 config.json 路径
+CONFIG_PATH = os.path.join(SCRIPT_DIR, 'config.json')
 def tbl_check(config):
 
     table_A = config['table_A']
@@ -34,7 +39,7 @@ def tbl_check(config):
 
 if __name__ == '__main__':
     # 读取配置文件
-    with open('config.json', 'r', encoding='utf-8') as f:
+    with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
         configs = json.load(f)['configs']
 
     # 批量执行检查
