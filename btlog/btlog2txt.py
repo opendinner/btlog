@@ -10,6 +10,8 @@ output_time = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
 s_path = os.path.dirname(os.path.abspath(__file__))
 input_file = os.path.join(s_path,'btlog.json')
 output_file = os.path.join(s_path,f'console_output_{output_time}.txt')
+output_json = os.path.join(s_path,f'console_output_{output_time}.json')
+
 def web_open(df,html_path = "output.html"):
     # 将 DataFrame 转换为 HTML 文件
     html_path = html_path
@@ -27,6 +29,9 @@ if __name__ == '__main__':
         # 读取 JSON 文件内容
         with open(input_file, 'r', encoding='utf-8') as f:
             resource = json.load(f)
+        
+        with open(output_json, 'w', encoding='utf-8') as json_file:
+            json.dump(resource, json_file, ensure_ascii=False, indent=4)
 
         log = []
 

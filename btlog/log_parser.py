@@ -13,9 +13,9 @@ def parse(data:list):
 def parse_buffs(data:list):
     camp = recognize_camp(data)
     for i in data[1]['effect']:
-        print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}\n")
+        # print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}\n")
+        print(f"{camp}buff{i['attrValues']}\n")
 
-    pass
 def parse_state(data:list):
     camp = recognize_camp(data)
 
