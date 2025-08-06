@@ -13,8 +13,14 @@ def parse(data:list):
 def parse_buffs(data:list):
     camp = recognize_camp(data)
     for i in data[1]['effect']:
-        # print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}\n")
-        print(f"{camp}buff{i['attrValues']}\n")
+        if 'damageMap' in i.keys():
+            print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}\n")
+        elif 'attrValues' in i.keys():
+            print(f"{camp}buff{i['attrValues']}\n")
+        elif 'shield' in i.keys():
+            print(f"{camp}buff{i['shield']}\n")
+        else:
+            print("没得搞")
 
 def parse_state(data:list):
     camp = recognize_camp(data)

@@ -1,0 +1,4770 @@
+{
+    "rule": {
+        "battleType": 9,
+        "totalTime": 60000,
+        "sceneId": 100
+    },
+    "attacker": {
+        "master": {
+            "unitId": 1,
+            "settingId": 1,
+            "name": "齐轩荆",
+            "normalSkillId": 903,
+            "attrs": {
+                "1": 3941,
+                "2": 237761,
+                "3": 0,
+                "4": 0,
+                "5": 2000,
+                "6": 0,
+                "7": 0,
+                "8": 15,
+                "9": 240,
+                "10": 0,
+                "11": 0,
+                "12": 0,
+                "13": 360,
+                "14": 120,
+                "15": 60,
+                "16": 60,
+                "17": 669,
+                "18": 484,
+                "19": 304,
+                "20": 453,
+                "21": 0,
+                "22": 10000,
+                "23": 20,
+                "24": 0,
+                "25": 0,
+                "26": 0,
+                "27": 300,
+                "28": 237761
+            },
+            "masterType": 1
+        },
+        "heroes": [],
+        "pets": [],
+        "harems": [
+            {
+                "unitId": 2,
+                "slot": 1,
+                "settingId": 25,
+                "level": 1
+            },
+            {
+                "unitId": 3,
+                "slot": 2,
+                "settingId": 14,
+                "level": 1
+            },
+            {
+                "unitId": 4,
+                "slot": 3,
+                "settingId": 34,
+                "level": 1
+            }
+        ],
+        "heroCombineSettings": [],
+        "generalVos": [
+            {
+                "unitId": 5,
+                "slot": 1,
+                "settingId": 52,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 6,
+                "slot": 2,
+                "settingId": 83,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 7,
+                "slot": 3,
+                "settingId": 106,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 8,
+                "slot": 4,
+                "settingId": 95,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 9,
+                "slot": 5,
+                "settingId": 111,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 10,
+                "slot": 6,
+                "settingId": 27,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 11,
+                "slot": 7,
+                "settingId": 93,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 12,
+                "slot": 8,
+                "settingId": 39,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 13,
+                "slot": 9,
+                "settingId": 108,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 14,
+                "slot": 10,
+                "settingId": 54,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 15,
+                "slot": 11,
+                "settingId": 53,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 16,
+                "slot": 12,
+                "settingId": 37,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 17,
+                "slot": 13,
+                "settingId": 121,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 18,
+                "slot": 14,
+                "settingId": 21,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 19,
+                "slot": 15,
+                "settingId": 116,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 20,
+                "slot": 16,
+                "settingId": 17,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 21,
+                "slot": 17,
+                "settingId": 117,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 22,
+                "slot": 18,
+                "settingId": 89,
+                "weaponId": 0,
+                "god": false
+            }
+        ],
+        "catVos": [],
+        "cloneVo": {
+            "unitId": 23,
+            "fashionId": 1
+        },
+        "recommend": 0
+    },
+    "defender": {
+        "master": {
+            "unitId": -1,
+            "settingId": 1087,
+            "name": "群雄将领",
+            "normalSkillId": 0,
+            "attrs": {
+                "1": 2925,
+                "2": 165302,
+                "3": 0,
+                "4": 0,
+                "5": 2000,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0,
+                "10": 0,
+                "11": 0,
+                "12": 0,
+                "13": 0,
+                "14": 0,
+                "15": 0,
+                "16": 0,
+                "17": 0,
+                "18": 0,
+                "19": 0,
+                "20": 0,
+                "21": 0,
+                "22": 10000,
+                "23": 20,
+                "24": 0,
+                "25": 0,
+                "26": 0,
+                "27": 0,
+                "28": 165302
+            },
+            "masterType": 2
+        },
+        "heroes": [],
+        "pets": [
+            {
+                "unitId": -2,
+                "slot": 1,
+                "setting": 4,
+                "level": 1,
+                "mutated": false
+            },
+            {
+                "unitId": -3,
+                "slot": 2,
+                "setting": 3,
+                "level": 1,
+                "mutated": false
+            }
+        ],
+        "harems": [
+            {
+                "unitId": -5,
+                "slot": 1,
+                "settingId": 20,
+                "level": 1
+            },
+            {
+                "unitId": -6,
+                "slot": 2,
+                "settingId": 31,
+                "level": 1
+            },
+            {
+                "unitId": -7,
+                "slot": 3,
+                "settingId": 32,
+                "level": 1
+            }
+        ],
+        "artifact": {
+            "unitId": -4,
+            "settingId": 7,
+            "star": 1
+        },
+        "heroCombineSettings": [],
+        "generalVos": [
+            {
+                "unitId": -8,
+                "slot": 1,
+                "settingId": 55,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -9,
+                "slot": 2,
+                "settingId": 56,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -10,
+                "slot": 3,
+                "settingId": 57,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -11,
+                "slot": 4,
+                "settingId": 58,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -12,
+                "slot": 5,
+                "settingId": 59,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -13,
+                "slot": 6,
+                "settingId": 60,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -14,
+                "slot": 7,
+                "settingId": 61,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -15,
+                "slot": 8,
+                "settingId": 62,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -16,
+                "slot": 9,
+                "settingId": 63,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -17,
+                "slot": 10,
+                "settingId": 64,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -18,
+                "slot": 11,
+                "settingId": 65,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -19,
+                "slot": 12,
+                "settingId": 66,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -20,
+                "slot": 13,
+                "settingId": 55,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -21,
+                "slot": 14,
+                "settingId": 56,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -22,
+                "slot": 15,
+                "settingId": 57,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -23,
+                "slot": 16,
+                "settingId": 58,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -24,
+                "slot": 17,
+                "settingId": 59,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -25,
+                "slot": 18,
+                "settingId": 60,
+                "weaponId": 0,
+                "god": false
+            }
+        ],
+        "catVos": [],
+        "cloneVo": {
+            "unitId": -26,
+            "fashionId": 1087
+        },
+        "recommend": 0
+    },
+    "actions": [
+        {
+            "timestamp": 0,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902
+        },
+        {
+            "timestamp": 66,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87
+        },
+        {
+            "timestamp": 462,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 3549
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 792,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 4757
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 924,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027
+        },
+        {
+            "timestamp": 924,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121
+        },
+        {
+            "timestamp": 990,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005
+        },
+        {
+            "timestamp": 1023,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116
+        },
+        {
+            "timestamp": 1023,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 1023,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 1023,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 1023,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 1056,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007
+        },
+        {
+            "timestamp": 1122,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093
+        },
+        {
+            "timestamp": 1122,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 1221,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 611
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1256
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063
+        },
+        {
+            "timestamp": 1320,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 718
+                    },
+                    "attrValues": {
+                        "hp": 233664
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 431
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "recoverMap": {
+                        "1": 367
+                    },
+                    "attrValues": {
+                        "hp": 159045
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 870
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 379
+                    },
+                    "attrValues": {
+                        "hp": 159424
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089
+        },
+        {
+            "timestamp": 1419,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 818
+                    },
+                    "attrValues": {
+                        "hp": 233201
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 589
+                    },
+                    "attrValues": {
+                        "hp": 233805
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": 7,
+            "skillId": 4106
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": 16,
+            "skillId": 4037
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": 18,
+            "skillId": 4021
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": -15,
+            "skillId": 4062
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": -17,
+            "skillId": 4064
+        },
+        {
+            "timestamp": 1518,
+            "type": 0,
+            "unitId": -18,
+            "skillId": 4065
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2319
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1642
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 643
+                    },
+                    "attrValues": {
+                        "hp": 234342
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 507
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1033
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1043
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 992
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": 5,
+            "skillId": 4052
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": 6,
+            "skillId": 4083
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -13,
+            "skillId": 4060
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -19,
+            "skillId": 4066
+        },
+        {
+            "timestamp": 1617,
+            "type": 0,
+            "unitId": -25,
+            "skillId": 4060
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1185
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 873
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 864
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "recoverMap": {
+                        "1": 512
+                    },
+                    "attrValues": {
+                        "hp": 153053
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1108
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1716,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "recoverMap": {
+                        "1": 468
+                    },
+                    "attrValues": {
+                        "hp": 153521
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1782,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5107
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1815,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1047
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1815,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2156
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1815,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 697
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1815,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": 7,
+            "skillId": 4106,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1057
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": 16,
+            "skillId": 4037,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1447
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": 18,
+            "skillId": 4021,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2033
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": -15,
+            "skillId": 4062,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1330
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": -17,
+            "skillId": 4064,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1266
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 1914,
+            "type": 0,
+            "unitId": -18,
+            "skillId": 4065,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1253
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 2013,
+            "type": 0,
+            "unitId": 5,
+            "skillId": 4052,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1185
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2013,
+            "type": 0,
+            "unitId": 6,
+            "skillId": 4083,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1030
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2013,
+            "type": 0,
+            "unitId": -13,
+            "skillId": 4060,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1405
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 2013,
+            "type": 0,
+            "unitId": -19,
+            "skillId": 4066,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1418
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 2013,
+            "type": 0,
+            "unitId": -25,
+            "skillId": 4060,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1391
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 2112,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1660
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2178,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1841
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2211,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 3377
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2244,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 4907
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2706,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027
+        },
+        {
+            "timestamp": 2706,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121
+        },
+        {
+            "timestamp": 2772,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005
+        },
+        {
+            "timestamp": 3003,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116
+        },
+        {
+            "timestamp": 3003,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 3003,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 3003,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 3003,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 3102,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 587
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3102,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 617
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3201,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007
+        },
+        {
+            "timestamp": 3300,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093
+        },
+        {
+            "timestamp": 3300,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108
+        },
+        {
+            "timestamp": 3399,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 726
+                    },
+                    "attrValues": {
+                        "hp": 208291
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3399,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 427
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3399,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 382
+                    },
+                    "attrValues": {
+                        "hp": 132730
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3399,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 827
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 3399,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 367
+                    },
+                    "attrValues": {
+                        "hp": 133097
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5257
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 3630,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87
+        },
+        {
+            "timestamp": 3696,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 793
+                    },
+                    "attrValues": {
+                        "hp": 205429
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3696,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 572
+                    },
+                    "attrValues": {
+                        "hp": 206015
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3894,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1660
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063
+        },
+        {
+            "timestamp": 3927,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1642
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1530
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 618
+                    },
+                    "attrValues": {
+                        "hp": 202552
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 972
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 527
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 517
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1003
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 3480
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4224,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053
+        },
+        {
+            "timestamp": 4224,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089
+        },
+        {
+            "timestamp": 4224,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 829
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 847
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 839
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 507
+                    },
+                    "attrValues": {
+                        "hp": 122660
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 571
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "recoverMap": {
+                        "1": 507
+                    },
+                    "attrValues": {
+                        "hp": 123167
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4323,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1823
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": 7,
+            "skillId": 4106
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": 16,
+            "skillId": 4037
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": 18,
+            "skillId": 4021
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": -15,
+            "skillId": 4062
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": -17,
+            "skillId": 4064
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": -18,
+            "skillId": 4065
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027
+        },
+        {
+            "timestamp": 4521,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121
+        },
+        {
+            "timestamp": 4620,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1110
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4620,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1068
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4620,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1366
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4620,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005
+        },
+        {
+            "timestamp": 4818,
+            "type": 0,
+            "unitId": 5,
+            "skillId": 4052
+        },
+        {
+            "timestamp": 4818,
+            "type": 0,
+            "unitId": 6,
+            "skillId": 4083
+        },
+        {
+            "timestamp": 4818,
+            "type": 0,
+            "unitId": -13,
+            "skillId": 4060
+        },
+        {
+            "timestamp": 4818,
+            "type": 0,
+            "unitId": -19,
+            "skillId": 4066
+        },
+        {
+            "timestamp": 4818,
+            "type": 0,
+            "unitId": -25,
+            "skillId": 4060
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": 7,
+            "skillId": 4106,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2072
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": 16,
+            "skillId": 4037,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1475
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": 18,
+            "skillId": 4021,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1932
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": -15,
+            "skillId": 4062,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 640
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": -17,
+            "skillId": 4064,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1304
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": -18,
+            "skillId": 4065,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1240
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 574
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4917,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 629
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5000,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902
+        },
+        {
+            "timestamp": 5016,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116
+        },
+        {
+            "timestamp": 5016,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 5016,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 5016,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 5016,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 5001,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902
+        },
+        {
+            "timestamp": 5214,
+            "type": 0,
+            "unitId": 5,
+            "skillId": 4052,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2518
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 5214,
+            "type": 0,
+            "unitId": 6,
+            "skillId": 4083,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1042
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5214,
+            "type": 0,
+            "unitId": -13,
+            "skillId": 4060,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 682
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5214,
+            "type": 0,
+            "unitId": -19,
+            "skillId": 4066,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1309
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 5214,
+            "type": 0,
+            "unitId": -25,
+            "skillId": 4060,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1296
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 698
+                    },
+                    "attrValues": {
+                        "hp": 152903
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 409
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 1143
+                    },
+                    "attrValues": {
+                        "hp": 111890
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 853
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 364
+                    },
+                    "attrValues": {
+                        "hp": 112254
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007
+        },
+        {
+            "timestamp": 5412,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87
+        },
+        {
+            "timestamp": 5511,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093
+        },
+        {
+            "timestamp": 5511,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108
+        },
+        {
+            "timestamp": 5742,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1726
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5775,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5257
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5775,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5257
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5808,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 3446
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5907,
+            "type": 0,
+            "unitId": 11,
+            "skillId": 4093,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 825
+                    },
+                    "attrValues": {
+                        "hp": 115730
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5907,
+            "type": 0,
+            "unitId": 13,
+            "skillId": 4108,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 589
+                    },
+                    "attrValues": {
+                        "hp": 116334
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056
+        },
+        {
+            "timestamp": 6006,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059
+        },
+        {
+            "timestamp": 6303,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027
+        },
+        {
+            "timestamp": 6303,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": 8,
+            "skillId": 4095,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1530
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": 9,
+            "skillId": 4111,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 847
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": 21,
+            "skillId": 4117,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "recoverMap": {
+                        "1": 630
+                    },
+                    "attrValues": {
+                        "hp": 85610
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": -9,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 507
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": -12,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 502
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": -21,
+            "skillId": 4056,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1043
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 6402,
+            "type": 0,
+            "unitId": -24,
+            "skillId": 4059,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1054
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063
+        },
+        {
+            "timestamp": 6501,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055
+        },
+        {
+            "timestamp": 6534,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1770
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6567,
+            "type": 0,
+            "unitId": -3,
+            "skillId": 7005
+        },
+        {
+            "timestamp": 6699,
+            "type": 0,
+            "unitId": 10,
+            "skillId": 4027,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 623
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6699,
+            "type": 0,
+            "unitId": 17,
+            "skillId": 4121,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 599
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6798,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 4807
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6798,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5158
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": 12,
+            "skillId": 4039,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 873
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": 14,
+            "skillId": 4054,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 855
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": 20,
+            "skillId": 4017,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 882
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": -8,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 502
+                    },
+                    "attrValues": {
+                        "hp": 86068
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": -16,
+            "skillId": 4063,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 1119
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 6897,
+            "type": 0,
+            "unitId": -20,
+            "skillId": 4055,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 492
+                    },
+                    "attrValues": {
+                        "hp": 86560
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057
+        },
+        {
+            "timestamp": 7029,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058
+        },
+        {
+            "timestamp": 7227,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87
+        },
+        {
+            "timestamp": 7260,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5107
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7260,
+            "type": 0,
+            "unitId": 23,
+            "skillId": 6902,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 5107
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7392,
+            "type": 0,
+            "unitId": -2,
+            "skillId": 7007
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": 15,
+            "skillId": 4053,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 2029
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": 22,
+            "skillId": 4089,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "damageMap": {
+                        "1": 1078
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": -14,
+            "skillId": 4061,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 718
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": 19,
+            "skillId": 4116,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 705
+                    },
+                    "attrValues": {
+                        "hp": 9232
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": -10,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 435
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": -11,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 360
+                    },
+                    "attrValues": {
+                        "hp": 73599
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": -22,
+            "skillId": 4057,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 853
+                    },
+                    "bCritical": true
+                }
+            ]
+        },
+        {
+            "timestamp": 7425,
+            "type": 0,
+            "unitId": -23,
+            "skillId": 4058,
+            "effect": [
+                {
+                    "fighterId": -1,
+                    "bCritical": true,
+                    "recoverMap": {
+                        "1": 364
+                    },
+                    "attrValues": {
+                        "hp": 73963
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": 7,
+            "skillId": 4106
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": 16,
+            "skillId": 4037
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": 18,
+            "skillId": 4021
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": -15,
+            "skillId": 4062
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": -17,
+            "skillId": 4064
+        },
+        {
+            "timestamp": 7524,
+            "type": 0,
+            "unitId": -18,
+            "skillId": 4065
+        },
+        {
+            "timestamp": 7623,
+            "type": 0,
+            "unitId": -26,
+            "skillId": 87,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "1": 3549
+                    }
+                }
+            ]
+        }
+    ],
+    "buffs": [
+        {
+            "timestamp": 132,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 117
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 231,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 123
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 363,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 113
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 495,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 119
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 594,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 117
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 726,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 113
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 858,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 115
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 990,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 117
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1122,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 122
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1254,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 112
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1386,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 116
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1518,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 122
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1650,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 121
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1749,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 113
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1848,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 116
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 1947,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 117
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2046,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 120
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2145,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 114
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2244,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 113
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2343,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 113
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2475,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 122
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2607,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 122
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2739,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 117
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 2871,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 116
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3003,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1203
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3135,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1281
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3234,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1281
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3366,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1305
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3498,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1203
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3630,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1218
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3762,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1218
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 3894,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1218
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4026,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1254
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4158,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1242
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4290,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1293
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4422,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1266
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4554,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1293
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4686,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1218
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4818,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1218
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 4950,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 1203
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5049,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7750
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5181,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 8055
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5313,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7842
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5445,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 8055
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5544,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7542
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5676,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7776
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5808,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 8211
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 5907,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7856
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6039,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7790
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6171,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7803
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6303,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7921
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6435,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7686
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6534,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7791
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6666,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7855
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6798,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7829
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 6930,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7711
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7029,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7699
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7161,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7881
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7293,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7738
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7392,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 8197
+                    }
+                }
+            ]
+        },
+        {
+            "timestamp": 7524,
+            "unitId": 1,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 7777
+                    }
+                }
+            ]
+        }
+    ],
+    "rageChange": [],
+    "states": [
+        {
+            "timestamp": 0,
+            "unitId": 1,
+            "effectId": 9,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 0,
+            "unitId": 1,
+            "effectId": 170,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 0,
+            "unitId": 1,
+            "effectId": 84,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 0,
+            "unitId": 1,
+            "effectId": 54,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1291,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1291,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1390,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1489,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1489,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1489,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1489,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1588,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1687,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1786,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1786,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1786,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1786,
+            "unitId": 1,
+            "effectId": 204,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1786,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1885,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 1984,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3073,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3073,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3370,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3667,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3667,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3667,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3667,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 3997,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4294,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4591,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4591,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4591,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4591,
+            "unitId": 1,
+            "effectId": 204,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4591,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 4888,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5185,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5383,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5878,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5878,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5878,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 5878,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6373,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6670,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6670,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 6868,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 204,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": 1,
+            "effectId": 11,
+            "isAdd": 1
+        },
+        {
+            "timestamp": 7396,
+            "unitId": -1,
+            "effectId": 12,
+            "isAdd": 1
+        }
+    ],
+    "battleResult": 1,
+    "endTime": 7623
+}
