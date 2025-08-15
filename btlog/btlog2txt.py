@@ -8,9 +8,10 @@ import os
 output_time = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
 
 s_path = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(s_path + '\\log', exist_ok=True)  # 自动创建不存在的文件夹
 input_file = os.path.join(s_path,'btlog.json')
-output_file = os.path.join(s_path,f'console_output_{output_time}.txt')
-output_json = os.path.join(s_path,f'console_output_{output_time}.json')
+output_file = os.path.join(s_path + '\\log',f'console_output_{output_time}.txt')
+output_json = os.path.join(s_path + '\\log',f'console_output_{output_time}.json')
 
 def web_open(df,html_path = "output.html"):
     # 将 DataFrame 转换为 HTML 文件

@@ -1,12 +1,14 @@
 import mapping as m
 
 def parse(data:list):
-    if 'effectId' in data[1]:
-        parse_state(data)
     if 'skillId' in data[1]:
         parse_action(data)
     elif 'effect' in data[1]:
-        parse_buffs(data)
+        parse_buffs(data)    
+    if 'effectId' in data[1]:
+        parse_state(data)
+
+
 
 
 
@@ -16,12 +18,11 @@ def parse_buffs(data:list):
         if 'damageMap' in i.keys():
             print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}",end='，')
             print(f'{i['curHp']}\n')
-        elif 'attrValues' in i.keys():
-            print(f"{camp}buff{i['attrValues']}\n")
-        elif 'shield' in i.keys():
-            print(f"{camp}buff{i['shield']}\n")
-        else:
-            print("没得搞")
+        if 'attrValues' in i.keys():
+            print(f"{data[0]} 时 {camp}buff{i['attrValues']}\n")
+        if 'shield' in i.keys():
+            print(f"{data[0]} 时 {camp}buff{i['shield']}\n")
+
 
 def parse_state(data:list):
     camp = recognize_camp(data)
@@ -49,24 +50,25 @@ def parse_action(data:list):
                 else:
                     if 'bCritical' in i and i['bCritical'] == True:
                         print(f'对 {i['fighterId']} 造成暴击!!! {i['damageMap']} ',end='，')
-                        print(f'{i['curHp']}')
                     else:
                         print(f'对 {i['fighterId']} 造成伤害 {i['damageMap']} ',end='，')
-                        print(f'{i['curHp']}')
-
             
-                
             if 'recoverMap' in i:
                 if 'suckVal' in i:
                     print(f'{i['fighterId']} 吸血回复了 {i['recoverMap']} ',end='，')
-                    print(f'{i['curHp']}')
                 else:
                     print(f'{i['fighterId']} 血量回复了 {i['recoverMap']} ',end='，')
-                    print(f'{i['curHp']}')
+            
+            if 'curHp' in i:
+                print(f'{i['fighterId']} 当前血量为 {i['curHp']}',end='，')  
+            
+            if 'maxHp' in i: 
+                print(f'{i['fighterId']} 最大血量为 {i['maxHp']}',end='，')
+
     print('\n')
 def recognize_camp(data:list):
     if data[1]['unitId'] < 0:
-        camp = '防守方'
+        camp = '右边'
     elif data[1]['unitId'] > 0:
-        camp = '攻击方'
+        camp = '左边'
     return camp
