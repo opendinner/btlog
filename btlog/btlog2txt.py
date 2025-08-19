@@ -60,3 +60,20 @@ if __name__ == '__main__':
 
         # 在默认浏览器中打开
     webbrowser.open(output_file)
+
+    '''
+    ShieldByLossHpEffectProcessor
+
+            System.out.printf("fighter %d, time %d, sum loss: %d \r\n", target.getMaster().getId(), param.getCurrentTime(), lossHp);
+        if (lossHp < lossHpPerTimes) {
+            // 先缓存下来先
+            passiveSkill.addCacheValue(KEY_LOSS_HP, lossHp);
+            return;
+        }
+        // 次数
+        int times = (int) (lossHp / lossHpPerTimes);
+        // 剩余的损失值
+        lossHp = lossHp % lossHpPerTimes;
+        // 缓存剩余的损失值
+        passiveSkill.addCacheValue(KEY_LOSS_HP, lossHp);
+        System.out.printf("fighter %d add %d * buff, time %d, remaining loss: %d \r\n", target.getMaster().getId(), times, param.getCurrentTime(), lossHp);'''

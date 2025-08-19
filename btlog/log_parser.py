@@ -12,6 +12,7 @@ def parse(data:list):
 
 
 
+
 def parse_buffs(data:list):
     camp = recognize_camp(data)
     for i in data[1]['effect']:
