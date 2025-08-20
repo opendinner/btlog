@@ -58,7 +58,10 @@ def parse_action(data:list):
                 if 'suckVal' in i:
                     print(f'{i['fighterId']} 吸血回复了 {i['recoverMap']} ',end='，')
                 else:
-                    print(f'{i['fighterId']} 血量回复了 {i['recoverMap']} ',end='，')
+                    if 'bCritical' in i and i['bCritical'] == True:
+                        print(f'{i['fighterId']} 血量暴击回复！！！了 {i['recoverMap']} ',end='，')
+                    else:
+                        print(f'{i['fighterId']} 血量回复了 {i['recoverMap']} ',end='，')
             
             if 'curHp' in i:
                 print(f'{i['fighterId']} 当前血量为 {i['curHp']}',end='，')  
