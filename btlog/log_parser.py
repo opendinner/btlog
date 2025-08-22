@@ -16,13 +16,22 @@ def parse(data:list):
 def parse_buffs(data:list):
     camp = recognize_camp(data)
     for i in data[1]['effect']:
+        print(f" {data[0]} 时",end=',')
+
         if 'damageMap' in i.keys():
-            print(f" {data[0]} 时 {camp}触发buff {i['damageMap']}",end='，')
-            print(f'{i['curHp']}\n')
+            print(f" {camp}触发buff {i['damageMap']}",end='，')
+        if 'recoverMap' in i.keys():
+            print(f" {camp}buff回复 {i['recoverMap']}",end='，')
+
         if 'attrValues' in i.keys():
-            print(f"{data[0]} 时 {camp}buff{i['attrValues']}\n")
+            print(f" {camp}buff{i['attrValues']}",end='，')
         if 'shield' in i.keys():
-            print(f"{data[0]} 时 {camp}buff{i['shield']}\n")
+            print(f" {camp}buff{i['shield']}",end='，')
+    if 'curHp' in i:
+        print(f'{i['fighterId']} 当前血量为 {i['curHp']}',end='，')
+    if 'maxHp' in i: 
+        print(f'{i['fighterId']} 最大血量为 {i['maxHp']}',end='')
+    print("\n")
 
 
 def parse_state(data:list):
@@ -67,7 +76,7 @@ def parse_action(data:list):
                 print(f'{i['fighterId']} 当前血量为 {i['curHp']}',end='，')  
             
             if 'maxHp' in i: 
-                print(f'{i['fighterId']} 最大血量为 {i['maxHp']}',end='，')
+                print(f'{i['fighterId']} 最大血量为 {i['maxHp']}',end='')
 
     print('\n')
 def recognize_camp(data:list):
