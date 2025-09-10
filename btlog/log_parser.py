@@ -1,6 +1,7 @@
 import mapping as m
 
 def parse(data:list):
+
     if 'skillId' in data[1]:
         parse_action(data)
     elif 'effect' in data[1]:
@@ -14,14 +15,18 @@ def parse(data:list):
 
 
 def parse_buffs(data:list):
-    camp = recognize_camp(data)
+
     for i in data[1]['effect']:
         print(f" {data[0]} 时",end=',')
-
+        if i['fighterId'] < 0:
+            camp = '右边'
+        else:
+            camp = '左边'
+            
         if 'damageMap' in i.keys():
-            print(f" {camp}触发buff {i['damageMap']}",end='，')
+            print(f" {camp}的{i['fighterId']}触发buff伤害 {i['damageMap']}",end='，')
         if 'recoverMap' in i.keys():
-            print(f" {camp}buff回复 {i['recoverMap']}",end='，')
+            print(f" {camp}的{i['fighterId']}触发buff回复 {i['recoverMap']}",end='，')
 
         if 'attrValues' in i.keys():
             print(f" {camp}buff{i['attrValues']}",end='，')
@@ -53,11 +58,12 @@ def parse_action(data:list):
         for i in data[1]['effect']:
             if 'bFreeze' in i and i['bFreeze'] == True:
                     print(f'{i['fighterId']}被定身 ',end='，')
-                    
+            if 'bEvade' in i and i['bEvade'] == True:
+                    print(f'{i['fighterId']}闪避了攻击 ',end='')       
+
+
             if 'damageMap' in i:
-                if 'bEvade' in i and i['bEvade'] == True:
-                    print(f'{i['fighterId']}闪避了攻击 ',end='')
-                else:
+
                     if 'bCritical' in i and i['bCritical'] == True:
                         print(f'对 {i['fighterId']} 造成暴击!!! {i['damageMap']} ',end='，')
                     else:

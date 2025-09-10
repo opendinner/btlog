@@ -19,6 +19,13 @@ def web_open(df,html_path = "output.html"):
     df.to_html(html_path)
     webbrowser.open(html_path)
     
+def getbattleResult(resource : dict):
+    if resource['battleResult'] == 1:
+        print("*****挑战失败*****")
+    else:
+        print("*****挑战成功*****")
+    print(f"\n战斗时长{resource['endTime']/1000:.3f}秒\n")
+
 if __name__ == '__main__':    
     # 重定向标准输出到文件
     with open(output_file, 'w', encoding='utf-8') as g:
@@ -49,6 +56,7 @@ if __name__ == '__main__':
 
         # df = pd.DataFrame(log, columns=['timestamp', 'data'])
         # web_open(df)
+        getbattleResult(resource)
 
         for i in log:
             log_parser.parse(i)
