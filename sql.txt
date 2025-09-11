@@ -1,0 +1,147 @@
+#根据玩家名查询id
+select player.`name`,account.`name`,account.id from player LEFT JOIN account ON player.id = account.id  WHERE INSTR(player.`name`,'hybb');
+
+#根据账号名查id
+SELECT player.`name`,player.`level`,account.`name`,account.id from account LEFT JOIN	player ON player.id = account.id WHERE account.`name` REGEXP 'bbh' ORDER BY account.id ASC;
+
+#根据id查账号名
+SELECT player.`name`,account.`name`,account.id from account LEFT JOIN	player ON player.id = account.id WHERE  LOCATE('1100000298',account.`id`) > 0;
+
+#跳关
+UPDATE storey_user_entity SET pass_id = 500 WHERE storey_user_entity.player_id = 1100000015
+
+-- #战役跳关
+-- UPDATE `server11`.`adventure` SET `passed` = 100 WHERE `player_id` = 1100000072
+
+#改主角等级
+
+UPDATE `server11`.`player` SET `level` = 15 WHERE player.id IN (SELECT account.id from account LEFT JOIN	player ON player.id = account.id WHERE account.`name` REGEXP 'bbh' );
+
+#根据账号查关卡奖励
+SELECT player.`name`,storey_user_entity.* FROM account INNER JOIN player ON account.id = player.id INNER JOIN storey_user_entity ON player.id = storey_user_entity.player_id WHERE account.`name` REGEXP 'sqcs'
+
+UPDATE 
+
+#改主线任务id
+SELECT * FROM task_entity WHERE task_entity.`owner` = 1100000133 AND task_entity.task_type = 1;
+UPDATE task_entity SET task_entity.setting = 60,task_entity.progress = 1 WHERE task_entity.task_type = 1 AND task_entity.`owner` = 1100000137
+UPDATE task_entity SET task_entity.progress = 0 WHERE task_entity.task_type = 1 AND task_entity.`owner` = 1100000144
+
+#测试天工引导
+UPDATE architecture.`level` = 0 WHERE architecture.`owner` = 1100000137 AND setting = 7
+UPDATE item.amount = 10000 where item.`owner` = 1100000137 and item.setting = 5
+
+
+
+#查角色武将数量
+select COUNT(*),`owner` from hero_entity GROUP BY	hero_entity.`owner` 
+#喵将
+SELECT * from architecture_cat_amount WHERE `owner` = 1100000015
+
+SELECT * FROM item WHERE item.`owner` = 1100000001 and item.amount > 100000000
+
+#引导
+SELECT player.guide_json FROM player WHERE player.id = 1100000265
+
+DELETE FROM `server11`.`harem` WHERE `owner` = 1100000145
+
+#删除纪元任务
+DELETE FROM `task_entity` WHERE `owner` = 1100000015 and task_type = 9
+
+#删掉所有纪元任务
+DELETE FROM `task_entity` WHERE task_type = 9
+
+#联盟基地测试账号筛选
+SELECT architecture.`owner`,account.`name` from architecture JOIN account ON architecture.`owner` = account.id WHERE architecture.setting_id = 1 and architecture.`level` >= 4 ORDER BY account.id asc;
+
+#查道具
+SELECT item.id,item.`owner`,item.amount from item WHERE	item.`owner` = 1100000467 AND item.setting = 1
+SELECT item.id,item.`owner`,item.amount from item WHERE	item.`owner` = 1100000467 AND item.setting = 2002
+SELECT item.id,item.`owner`,item.amount from item WHERE item.setting = 5
+
+#查理没参与
+SELECT league_member.league,account.`name` from league_member JOIN account ON league_member.player_id = account.id
+
+#点将台
+UPDATE architecture a,(SELECT account.id from league_member JOIN account ON league_member.player_id = account.id WHERE league_member.league = 1100000004) b SET a.`level` = 8 WHERE a.setting_id = 6 and a.`owner` = b.id
+
+#清武将
+DELETE FROM	general WHERE `owner` = 1100000161;
+DELETE FROM	general_user_entity WHERE player_id = 1100000161;
+
+DROP TABLE hero_entity;
+DROP TABLE hero_user_entity
+
+DELETE from task_entity WHERE task_entity.task_type = 5
+
+select architecture.`owner` from architecture where architecture.OWNER not in ( select architecture.`owner` from architecture WHERE architecture.setting_id = 4);
+
+drop table open_server_activity;
+drop table open_system_activity;
+drop table daily_charge_entity;
+
+
+ALTER table hero_user_entity drop column exchange_hero_times;
+
+SELECT * from time_gift where `owner`=1100000015;
+
+#查武将数量大于50
+SELECT general.`owner`,COUNT(*) from general GROUP BY general.`owner`
+
+UPDATE storey_user_entity set storey_user_entity.pass_id = 0 ,storey_user_entity.small_monster_pass_count = 5 WHERE storey_user_entity.player_id = 1100000306
+
+UPDATE storey_user_entity set is_complete_boss_story=1;
+
+alter TABLE storey_user_entity drop column is_complete_boss_story;
+
+UPDATE `storey_user_entity` SET `pass_id` = 9 WHERE `player_id` = 1100000025;
+UPDATE `storey_user_entity` SET `small_monster_pass_count` = 6 WHERE `player_id` = 1100000025;
+
+#建兵营引导
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000374, 3, 1753094681262, 5, 1100000486, 0, 0, 3);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000374, 3, 1753094681262, 1, 1100000486, 0, 0, 3);
+
+#门客引导前置
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000539, 1, 1753096789844, 5, 1100000640, 0, 0, 1);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000540, 2, 1753096798732, 4, 1100000640, 0, 0, 2);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000541, 7, 1753096813758, 4, 1100000640, 0, 0, 7);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000542, 3, 1753096837764, 5, 1100000640, 0, 0, 3);
+
+
+#兵营引导前置
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000483, 1, 1753096789844, 6, 1100000498, 0, 0, 1);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000483, 2, 1753096798732, 6, 1100000498, 0, 0, 2);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000483, 7, 1753096813758, 6, 1100000498, 0, 0, 7);
+INSERT INTO `server11`.`architecture` (`id`, `land_id`, `last_production_time`, `level`, `owner`, `production_amount`, `production_time`, `setting_id`) VALUES (1100000483, 3, 1753096837764, 6, 1100000498, 0, 0, 3);
+
+#换宠物
+SELECT * from pet	WHERE pet.`owner` = 1100000468
+
+SELECT * from pet	WHERE pet.`owner` = 1100000015
+
+#CHANGE harem
+SELECT * from harem WHERE `owner`	 = 1100000610 ;
+
+SELECT * from harem WHERE `owner`	 = 1100000617 ;
+
+SELECT * from harem WHERE `owner`	 = 1100000624 ;
+
+SELECT * from harem WHERE `owner`	 = 1100000625 ;
+
+#change general
+SELECT * from general WHERE `owner`	 = 1100000599
+SELECT * from general WHERE `owner`	 = 1100000610
+
+
+#chang magic
+SELECT * from magic_entity WHERE `owner` = 1100000587
+
+SELECT * from magic_entity WHERE `owner` = 1100000610
+
+
+UPDATE `server11`.`pet` SET `setting` = 10 WHERE `id` = 1100000210;
+
+
+DELETE FROM task_entity WHERE	task_type = 4
+
+UPDATE `server11`.`land_user_entity` SET `events` = '[]' 
