@@ -1,0 +1,463 @@
+{
+    "rule": {
+        "battleType": 9,
+        "totalTime": 60000,
+        "sceneId": 100
+    },
+    "attacker": {
+        "master": {
+            "unitId": 1,
+            "settingId": 1,
+            "name": "狄毅梓",
+            "normalSkillId": 903,
+            "attrs": {
+                "1": 4358,
+                "2": 558162,
+                "3": 0,
+                "4": 0,
+                "5": 10010,
+                "6": 0,
+                "7": 0,
+                "8": 15,
+                "9": 2040,
+                "10": 1800,
+                "11": 0,
+                "12": 0,
+                "13": 2360,
+                "14": 1920,
+                "15": 1860,
+                "16": 1860,
+                "17": 2040,
+                "18": 2325,
+                "19": 1353,
+                "20": 1172,
+                "21": 0,
+                "22": 10000,
+                "23": 20,
+                "24": 0,
+                "25": 0,
+                "26": 0,
+                "27": 300,
+                "28": 558162,
+                "51": 20
+            },
+            "masterType": 1,
+            "maxHp": 558162,
+            "rage": 0
+        },
+        "heroes": [],
+        "pets": [],
+        "harems": [
+            {
+                "unitId": 3,
+                "slot": 1,
+                "settingId": 25,
+                "level": 1
+            },
+            {
+                "unitId": 4,
+                "slot": 2,
+                "settingId": 14,
+                "level": 1
+            },
+            {
+                "unitId": 5,
+                "slot": 3,
+                "settingId": 34,
+                "level": 1
+            }
+        ],
+        "artifact": {
+            "unitId": 2,
+            "settingId": 1,
+            "star": 1
+        },
+        "heroCombineSettings": [],
+        "generalVos": [
+            {
+                "unitId": 6,
+                "slot": 1,
+                "settingId": 52,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 7,
+                "slot": 2,
+                "settingId": 83,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 8,
+                "slot": 3,
+                "settingId": 106,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 9,
+                "slot": 4,
+                "settingId": 95,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 10,
+                "slot": 5,
+                "settingId": 111,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 11,
+                "slot": 6,
+                "settingId": 27,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 12,
+                "slot": 7,
+                "settingId": 93,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 13,
+                "slot": 8,
+                "settingId": 39,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 14,
+                "slot": 9,
+                "settingId": 108,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 15,
+                "slot": 10,
+                "settingId": 54,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 16,
+                "slot": 11,
+                "settingId": 53,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 17,
+                "slot": 12,
+                "settingId": 37,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 18,
+                "slot": 13,
+                "settingId": 121,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 19,
+                "slot": 14,
+                "settingId": 21,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 20,
+                "slot": 15,
+                "settingId": 116,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 21,
+                "slot": 16,
+                "settingId": 17,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 22,
+                "slot": 17,
+                "settingId": 117,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": 23,
+                "slot": 18,
+                "settingId": 89,
+                "weaponId": 0,
+                "god": false
+            }
+        ],
+        "catVos": [],
+        "cloneVo": {
+            "unitId": 24,
+            "fashionId": 1
+        },
+        "recommend": 0
+    },
+    "defender": {
+        "master": {
+            "unitId": -1,
+            "settingId": 1126,
+            "name": "郭汜",
+            "normalSkillId": 0,
+            "attrs": {
+                "1": 3291538,
+                "2": 272830,
+                "3": 0,
+                "4": 0,
+                "5": 2000,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0,
+                "10": 0,
+                "11": 0,
+                "12": 0,
+                "13": 0,
+                "14": 0,
+                "15": 0,
+                "16": 0,
+                "17": 0,
+                "18": 0,
+                "19": 0,
+                "20": 0,
+                "21": 0,
+                "22": 10000,
+                "23": 20,
+                "24": 0,
+                "25": 0,
+                "26": 0,
+                "27": 0,
+                "28": 272830
+            },
+            "masterType": 2,
+            "maxHp": 272830,
+            "rage": 0
+        },
+        "heroes": [],
+        "pets": [
+            {
+                "unitId": -2,
+                "slot": 1,
+                "setting": 6,
+                "level": 1,
+                "mutated": false
+            },
+            {
+                "unitId": -3,
+                "slot": 2,
+                "setting": 5,
+                "level": 1,
+                "mutated": false
+            }
+        ],
+        "harems": [
+            {
+                "unitId": -5,
+                "slot": 1,
+                "settingId": 13,
+                "level": 1
+            },
+            {
+                "unitId": -6,
+                "slot": 2,
+                "settingId": 33,
+                "level": 1
+            },
+            {
+                "unitId": -7,
+                "slot": 3,
+                "settingId": 34,
+                "level": 1
+            }
+        ],
+        "artifact": {
+            "unitId": -4,
+            "settingId": 2,
+            "star": 1
+        },
+        "heroCombineSettings": [],
+        "generalVos": [
+            {
+                "unitId": -8,
+                "slot": 1,
+                "settingId": 55,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -9,
+                "slot": 2,
+                "settingId": 56,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -10,
+                "slot": 3,
+                "settingId": 57,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -11,
+                "slot": 4,
+                "settingId": 58,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -12,
+                "slot": 5,
+                "settingId": 59,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -13,
+                "slot": 6,
+                "settingId": 60,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -14,
+                "slot": 7,
+                "settingId": 61,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -15,
+                "slot": 8,
+                "settingId": 62,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -16,
+                "slot": 9,
+                "settingId": 63,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -17,
+                "slot": 10,
+                "settingId": 64,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -18,
+                "slot": 11,
+                "settingId": 65,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -19,
+                "slot": 12,
+                "settingId": 66,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -20,
+                "slot": 13,
+                "settingId": 55,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -21,
+                "slot": 14,
+                "settingId": 56,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -22,
+                "slot": 15,
+                "settingId": 57,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -23,
+                "slot": 16,
+                "settingId": 58,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -24,
+                "slot": 17,
+                "settingId": 59,
+                "weaponId": 0,
+                "god": false
+            },
+            {
+                "unitId": -25,
+                "slot": 18,
+                "settingId": 62,
+                "weaponId": 0,
+                "god": false
+            }
+        ],
+        "catVos": [],
+        "cloneVo": {
+            "unitId": -26,
+            "fashionId": 1126
+        },
+        "recommend": 0
+    },
+    "actions": [
+        {
+            "timestamp": 0,
+            "type": 0,
+            "unitId": 24,
+            "skillId": 6902
+        }
+    ],
+    "buffs": [
+        {
+            "timestamp": 33,
+            "unitId": -16,
+            "effect": [
+                {
+                    "fighterId": 1,
+                    "damageMap": {
+                        "3": 966924
+                    },
+                    "curHp": 0
+                }
+            ]
+        }
+    ],
+    "rageChange": [],
+    "states": [
+        {
+            "timestamp": 0,
+            "unitId": 1,
+            "effectId": 2,
+            "isAdd": 1
+        }
+    ],
+    "battleResult": 1,
+    "endTime": 33
+}
