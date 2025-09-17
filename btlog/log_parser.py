@@ -47,7 +47,7 @@ def parse_state(data:list):
     if data[1]['isAdd'] == 0:
         _swtich = '移除'
 
-    print(f" {data[0]} 时 {camp} 的 {data[1]['unitId']} {_swtich} 了效果 {m.effect_mapping[data[1]['effectId']]}({data[1]['effectId']})\n")
+    print(f" {data[0]} 时 {camp} 的 {data[1]['unitId']} {_swtich} 了效果 {m.state_mapping[data[1]['effectId']]}({data[1]['effectId']})\n")
 
 
 def parse_action(data:list):

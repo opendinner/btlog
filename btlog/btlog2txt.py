@@ -4,6 +4,7 @@ import webbrowser
 import log_parser
 import sys
 import os
+from mapping import attrs_mapping as attrs
 
 output_time = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
 
@@ -20,11 +21,36 @@ def web_open(df,html_path = "output.html"):
     webbrowser.open(html_path)
     
 def getbattleResult(resource : dict):
+
+    print(resource["attacker"]['master']['name'] + ' vs ' + resource["defender"]['master']['name']+'\n')
     if resource['battleResult'] == 1:
         print("*****挑战失败*****")
     else:
         print("*****挑战成功*****")
     print(f"\n战斗时长{resource['endTime']/1000:.3f}秒\n")
+
+    for i in range(1,len(resource["attacker"]['master']['attrs'])+1):
+        # 尝试多种键的类型 (int 和 str)
+        key_str = str(i)
+        key_int = int(i)
+        
+        attr_value = resource["attacker"]['master']['attrs'][key_str]
+        
+        # 检查键是否存在于attrs字典中（先检查str类型，再检查int类型）
+        attr_name = None
+        if key_str in attrs:
+            attr_name = attrs[key_str]
+        elif key_int in attrs:
+            attr_name = attrs[key_int]
+        else:
+            # 如果attrs中没有对应的键，使用默认值
+            attr_name = f"属性{key_str}"
+            
+        print(f"{attr_name:<30s}: {attr_value} vs {attr_value}")
+
+    print("\n")
+
+
 
 if __name__ == '__main__':    
     # 重定向标准输出到文件
@@ -38,6 +64,7 @@ if __name__ == '__main__':
         with open(input_file, 'r', encoding='utf-8') as f:
             resource = json.load(f)
         
+        #保存json并重命名
         with open(output_json, 'w', encoding='utf-8') as json_file:
             json.dump(resource, json_file, ensure_ascii=False, indent=4)
 
