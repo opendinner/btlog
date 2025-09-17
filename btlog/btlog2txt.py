@@ -34,7 +34,8 @@ def getbattleResult(resource : dict):
         key_str = str(i)
         key_int = int(i)
         
-        attr_value = resource["attacker"]['master']['attrs'][key_str]
+        attr_value1 = resource["attacker"]['master']['attrs'][key_str]
+        attr_value2 = resource["defender"]['master']['attrs'][key_str]
         
         # 检查键是否存在于attrs字典中（先检查str类型，再检查int类型）
         attr_name = None
@@ -46,7 +47,7 @@ def getbattleResult(resource : dict):
             # 如果attrs中没有对应的键，使用默认值
             attr_name = f"属性{key_str}"
             
-        print(f"{attr_name:<30s}: {attr_value} vs {attr_value}")
+        print(f"{attr_name:<30s}: {attr_value1} vs {attr_value2}")
 
     print("\n")
 
