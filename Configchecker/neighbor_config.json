@@ -1,0 +1,20 @@
+{
+    "config1": 
+        {
+        "path": "G-攻城",
+        "sheet": "星球配置",
+        "type":"星球",
+        "colA": "星球id",
+        "colB": "相邻星球"
+        },
+    "config2":
+        {
+        "path": "J-疆域表",
+        "sheet": "地图",
+        "type":"城池",
+        "colA": "位置id",
+        "colB": "可前往位置列表"
+        }
+    
+    
+}
